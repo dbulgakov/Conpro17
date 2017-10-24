@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="conference_feed_item_id" type="id" />
+    <item name="file_item_id" type="id"/>
+    <item name="lecture_item_id" type="id"/>
+</resources>

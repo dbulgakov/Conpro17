@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:id="@+id/iv_lecture_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_gravity="top"
+            android:src="@drawable/placeholder_circled_person" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/tv_lecture_time_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="16sp"
+                tools:text="12:10 - 13:10" />
+            <TextView
+                android:id="@+id/tv_speaker_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="16sp"
+                tools:text="Иванов Иван" />
+
+            <TextView
+                android:id="@+id/tv_lecture_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="16sp"
+                tools:text="Инновации в сфере BI-систем" />
+
+            <TextView
+                android:id="@+id/tv_lecture_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="16sp"
+                tools:text="@string/lorem_ipsum" />
+        </LinearLayout>
+</LinearLayout>

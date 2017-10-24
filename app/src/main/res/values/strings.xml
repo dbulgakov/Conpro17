@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Conferences</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+
+    <!-- UserAuthFragment -->
+    <string name="user_register_name_text">Имя</string>
+    <string name="user_register_mail_text">Email</string>
+    <string name="user_register_password1_text">Пароль</string>
+    <string name="user_register_password2_text">Подтверждение пароля</string>
+
+    <string name="user_invite_to_register_text">Регистрация</string>
+    <string name="user_invite_to_login_text">Вход</string>
+
+    <string name="registration_fragment_title">Регистрация</string>
+    <string name="login_fragment_title">Вход</string>
+    <string name="intro_string">Находите самые интересные и актуальные конференции в вашем городе</string>
+
+    <!-- ConferenceFeedFragment -->
+
+    <string name="conferences_all">Все конференции</string>
+
+    <!-- Error messages -->
+    <string name="error_msg_wrong_email_input">Ввведите корректный email</string>
+    <string name="error_msg_wrong_password_input">Ввведите корректный пароль</string>
+    <string name="error_msg_wrong_password2_input">Введенные пароли не совпадают</string>
+    <string name="error_msg_wrong_phone_input">Ввведите корректный номер телефона</string>
+    <string name="error_msg_wrong_text_input">Строка не может быть пустой</string>
+    <string name="error_msg_wrong_input">Проверьте введенные данные</string>
+
+    <!-- Content descriptions -->
+    <string name="content_description_background_intro_image">Изображение логотип конференции</string>
+
+    <!-- Search Actionbar -->
+    <string name="search_actionbar_title">Поиск</string>
+
+    <!-- SideBar -->
+    <string name="sidebar_item_conferences_string">Все конференции</string>
+    <string name="sidebar_item_account_info_string">Аккаунт</string>
+    <string name="sidebar_category_other_string">Прочее</string>
+    <string name="sidebar_item_about_app_string">О приложении</string>
+    <string name="sidebar_item_exit_account_string">Выйти из аккаунта</string>
+    <string name="organizer">Организатор:</string>
+    <string name="lectures">Доклады</string>
+    <string name="attachments">Загружаемые файлы</string>
+    <string name="loading">Загрузка…</string>
+    <string name="err">Ошибка</string>
+</resources>

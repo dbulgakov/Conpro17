@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MaterialDrawerTheme.Light.TranslucentStatus">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppSplashScreenTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/background_splash_screen</item>
+    </style>
+
+    <style name="AppTheme.TextEdit">
+        <item name="android:textColor">@color/colorTextPrimaryLight</item>
+        <item name="android:textColorSecondary">@color/colorTextPrimaryLight</item>
+        <item name="android:editTextColor">@color/colorTextPrimaryLight</item>
+        <item name="android:textColorHint">@color/colorTextSecondaryLight</item>
+        <item name="android:textSize">18sp</item>
+        <item name="colorControlNormal">@color/colorTextPrimaryLight</item>
+        <item name="colorControlActivated">@color/colorTextPrimaryLight</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+</resources>

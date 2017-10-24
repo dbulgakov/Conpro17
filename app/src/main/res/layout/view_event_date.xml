@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <!--android:background="@color/colorBlackTint"-->
+    <ImageView
+        android:layout_width="@dimen/icon_dimension_small"
+        android:layout_height="@dimen/icon_dimension_small"
+        android:layout_marginRight="@dimen/default_margin_halved"
+        android:layout_marginEnd="@dimen/default_margin_halved"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription"
+        app:srcCompat="@drawable/ic_date" />
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/lesser_text_size"
+        tools:text="Суббота, 9 февраля"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_height="match_parent" />
+</LinearLayout>
